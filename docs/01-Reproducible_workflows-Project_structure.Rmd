@@ -1,0 +1,29 @@
+---
+title: "Reproducible R workshop notes: Reproducible workflows/Project structure"
+author: "David Hemprich-Bennett"
+date: "24/05/2019"
+output: html_document
+---
+Workshop run by Tamora James (tdjames1@sheffield.ac.uk)  
+Recommends using usethis package to make new projects
+```{r, eval = F}
+usethis::create_project(path = "~/Google_Drive/reproducible_research_workshop")
+```
+
+or reload your current project with a blank slate
+
+```{r, eval = F}
+usethis::use_blank_slate("project")
+```
+
+You can use usethis to make r scripts
+
+```{r, eval = F}
+usethis::use_r(name = "01_setup.R")
+```
+
+
+Or set up directory structure  
+```{r, eval = T}
+usethis::use_directory(path = "results")
+```

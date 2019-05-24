@@ -1,0 +1,10 @@
+---
+title: 'Reproducible R workshop notes: Version control'
+author: "David Hemprich-Bennett"
+date: "24/05/2019"
+output: html_document
+---
+Workshop run by Tamora James (tdjames1@sheffield.ac.uk)  
+
+Recommends the tutorial at http://bit.ly/intro-vcr
+
